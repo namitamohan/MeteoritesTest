@@ -15,6 +15,23 @@
 		0897212D26E6CA4F000D189F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0897212C26E6CA4F000D189F /* Assets.xcassets */; };
 		0897213026E6CA4F000D189F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0897212E26E6CA4F000D189F /* LaunchScreen.storyboard */; };
 		0897213B26E6CA4F000D189F /* MeteoritesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0897213A26E6CA4F000D189F /* MeteoritesTests.swift */; };
+		0897216A26E6CB66000D189F /* MeteoriteListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0897215426E6CB66000D189F /* MeteoriteListPresenter.swift */; };
+		0897216B26E6CB66000D189F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0897215626E6CB66000D189F /* Constants.swift */; };
+		0897216C26E6CB66000D189F /* MeteoriteLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0897215826E6CB66000D189F /* MeteoriteLocationViewController.swift */; };
+		0897216D26E6CB66000D189F /* BookmarksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0897215926E6CB66000D189F /* BookmarksViewController.swift */; };
+		0897216E26E6CB66000D189F /* MeteoriteListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0897215A26E6CB66000D189F /* MeteoriteListTableViewCell.swift */; };
+		0897216F26E6CB66000D189F /* MeteoriteListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0897215B26E6CB66000D189F /* MeteoriteListViewController.swift */; };
+		0897217026E6CB66000D189F /* FilterTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0897215C26E6CB66000D189F /* FilterTableViewController.swift */; };
+		0897217226E6CB66000D189F /* MeteoriteModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0897215F26E6CB66000D189F /* MeteoriteModel.swift */; };
+		0897217326E6CB66000D189F /* MeteoriteLoc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0897216026E6CB66000D189F /* MeteoriteLoc.swift */; };
+		0897217426E6CB66000D189F /* MeteoriteDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0897216226E6CB66000D189F /* MeteoriteDataService.swift */; };
+		0897217526E6CB66000D189F /* DatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0897216426E6CB66000D189F /* DatePicker.swift */; };
+		0897217626E6CB66000D189F /* AnnotationExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0897216526E6CB66000D189F /* AnnotationExtension.swift */; };
+		0897217726E6CB66000D189F /* MapViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0897216626E6CB66000D189F /* MapViewExtension.swift */; };
+		0897217826E6CB66000D189F /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0897216726E6CB66000D189F /* StringExtension.swift */; };
+		0897217926E6CB66000D189F /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0897216926E6CB66000D189F /* NetworkManager.swift */; };
+		08C06FCE26E91C7F0015E795 /* BookmarkPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08C06FCD26E91C7F0015E795 /* BookmarkPresenter.swift */; };
+		08C06FD026E936F30015E795 /* BookmarkTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08C06FCF26E936F30015E795 /* BookmarkTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +57,23 @@
 		0897213626E6CA4F000D189F /* MeteoritesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeteoritesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0897213A26E6CA4F000D189F /* MeteoritesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeteoritesTests.swift; sourceTree = "<group>"; };
 		0897213C26E6CA4F000D189F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0897215426E6CB66000D189F /* MeteoriteListPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeteoriteListPresenter.swift; sourceTree = "<group>"; };
+		0897215626E6CB66000D189F /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		0897215826E6CB66000D189F /* MeteoriteLocationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeteoriteLocationViewController.swift; sourceTree = "<group>"; };
+		0897215926E6CB66000D189F /* BookmarksViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookmarksViewController.swift; sourceTree = "<group>"; };
+		0897215A26E6CB66000D189F /* MeteoriteListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeteoriteListTableViewCell.swift; sourceTree = "<group>"; };
+		0897215B26E6CB66000D189F /* MeteoriteListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeteoriteListViewController.swift; sourceTree = "<group>"; };
+		0897215C26E6CB66000D189F /* FilterTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilterTableViewController.swift; sourceTree = "<group>"; };
+		0897215F26E6CB66000D189F /* MeteoriteModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeteoriteModel.swift; sourceTree = "<group>"; };
+		0897216026E6CB66000D189F /* MeteoriteLoc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeteoriteLoc.swift; sourceTree = "<group>"; };
+		0897216226E6CB66000D189F /* MeteoriteDataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeteoriteDataService.swift; sourceTree = "<group>"; };
+		0897216426E6CB66000D189F /* DatePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatePicker.swift; sourceTree = "<group>"; };
+		0897216526E6CB66000D189F /* AnnotationExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnnotationExtension.swift; sourceTree = "<group>"; };
+		0897216626E6CB66000D189F /* MapViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewExtension.swift; sourceTree = "<group>"; };
+		0897216726E6CB66000D189F /* StringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		0897216926E6CB66000D189F /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		08C06FCD26E91C7F0015E795 /* BookmarkPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookmarkPresenter.swift; sourceTree = "<group>"; };
+		08C06FCF26E936F30015E795 /* BookmarkTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookmarkTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +115,13 @@
 		0897211F26E6CA4E000D189F /* Meteorites */ = {
 			isa = PBXGroup;
 			children = (
+				0897215526E6CB66000D189F /* Constants */,
+				0897216126E6CB66000D189F /* DataSource */,
+				0897216326E6CB66000D189F /* Extensions */,
+				0897215D26E6CB66000D189F /* Models */,
+				0897216826E6CB66000D189F /* NetworkManager */,
+				0897215326E6CB66000D189F /* Presenters */,
+				0897215726E6CB66000D189F /* Views */,
 				0897212026E6CA4E000D189F /* AppDelegate.swift */,
 				0897212226E6CA4E000D189F /* SceneDelegate.swift */,
 				0897212426E6CA4E000D189F /* ViewController.swift */,
@@ -100,6 +141,72 @@
 				0897213C26E6CA4F000D189F /* Info.plist */,
 			);
 			path = MeteoritesTests;
+			sourceTree = "<group>";
+		};
+		0897215326E6CB66000D189F /* Presenters */ = {
+			isa = PBXGroup;
+			children = (
+				0897215426E6CB66000D189F /* MeteoriteListPresenter.swift */,
+				08C06FCD26E91C7F0015E795 /* BookmarkPresenter.swift */,
+			);
+			path = Presenters;
+			sourceTree = "<group>";
+		};
+		0897215526E6CB66000D189F /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				0897215626E6CB66000D189F /* Constants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		0897215726E6CB66000D189F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0897215826E6CB66000D189F /* MeteoriteLocationViewController.swift */,
+				0897215926E6CB66000D189F /* BookmarksViewController.swift */,
+				0897215A26E6CB66000D189F /* MeteoriteListTableViewCell.swift */,
+				0897215B26E6CB66000D189F /* MeteoriteListViewController.swift */,
+				0897215C26E6CB66000D189F /* FilterTableViewController.swift */,
+				08C06FCF26E936F30015E795 /* BookmarkTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0897215D26E6CB66000D189F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0897215F26E6CB66000D189F /* MeteoriteModel.swift */,
+				0897216026E6CB66000D189F /* MeteoriteLoc.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		0897216126E6CB66000D189F /* DataSource */ = {
+			isa = PBXGroup;
+			children = (
+				0897216226E6CB66000D189F /* MeteoriteDataService.swift */,
+			);
+			path = DataSource;
+			sourceTree = "<group>";
+		};
+		0897216326E6CB66000D189F /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				0897216426E6CB66000D189F /* DatePicker.swift */,
+				0897216526E6CB66000D189F /* AnnotationExtension.swift */,
+				0897216626E6CB66000D189F /* MapViewExtension.swift */,
+				0897216726E6CB66000D189F /* StringExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		0897216826E6CB66000D189F /* NetworkManager */ = {
+			isa = PBXGroup;
+			children = (
+				0897216926E6CB66000D189F /* NetworkManager.swift */,
+			);
+			path = NetworkManager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -203,10 +310,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0897217026E6CB66000D189F /* FilterTableViewController.swift in Sources */,
+				0897217726E6CB66000D189F /* MapViewExtension.swift in Sources */,
+				0897216D26E6CB66000D189F /* BookmarksViewController.swift in Sources */,
 				0897212B26E6CA4E000D189F /* Meteorites.xcdatamodeld in Sources */,
+				08C06FCE26E91C7F0015E795 /* BookmarkPresenter.swift in Sources */,
+				0897217626E6CB66000D189F /* AnnotationExtension.swift in Sources */,
+				0897217226E6CB66000D189F /* MeteoriteModel.swift in Sources */,
+				0897217426E6CB66000D189F /* MeteoriteDataService.swift in Sources */,
+				0897216E26E6CB66000D189F /* MeteoriteListTableViewCell.swift in Sources */,
 				0897212526E6CA4E000D189F /* ViewController.swift in Sources */,
+				0897217526E6CB66000D189F /* DatePicker.swift in Sources */,
+				08C06FD026E936F30015E795 /* BookmarkTableViewCell.swift in Sources */,
+				0897216A26E6CB66000D189F /* MeteoriteListPresenter.swift in Sources */,
+				0897216F26E6CB66000D189F /* MeteoriteListViewController.swift in Sources */,
+				0897217926E6CB66000D189F /* NetworkManager.swift in Sources */,
+				0897216C26E6CB66000D189F /* MeteoriteLocationViewController.swift in Sources */,
 				0897212126E6CA4E000D189F /* AppDelegate.swift in Sources */,
+				0897217326E6CB66000D189F /* MeteoriteLoc.swift in Sources */,
+				0897217826E6CB66000D189F /* StringExtension.swift in Sources */,
 				0897212326E6CA4E000D189F /* SceneDelegate.swift in Sources */,
+				0897216B26E6CB66000D189F /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

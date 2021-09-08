@@ -1,4 +1,22 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithCloudKit="false" userDefinedModelVersionIdentifier="">
-    <elements/>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="15702" systemVersion="18G9216" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="GeolocationDB" representedClassName="GeolocationDB" syncable="YES" codeGenerationType="class">
+        <attribute name="latitude" optional="YES" attributeType="String"/>
+        <attribute name="longitude" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="MeteoriteDB" representedClassName="MeteoriteDB" syncable="YES" codeGenerationType="class">
+        <attribute name="fall" optional="YES" attributeType="String"/>
+        <attribute name="id" optional="YES" attributeType="String"/>
+        <attribute name="mass" optional="YES" attributeType="String"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="nametype" optional="YES" attributeType="String"/>
+        <attribute name="recclass" optional="YES" attributeType="String"/>
+        <attribute name="reclat" optional="YES" attributeType="String"/>
+        <attribute name="reclong" optional="YES" attributeType="String"/>
+        <attribute name="year" optional="YES" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="MeteoriteDB" positionX="-63" positionY="-18" width="128" height="178"/>
+        <element name="GeolocationDB" positionX="-54" positionY="63" width="128" height="73"/>
+    </elements>
 </model>
